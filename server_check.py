@@ -1,7 +1,7 @@
 import time, socket, os
 
 while True:
-	time.sleep(3600)
+	time.sleep(3600) # 1 hr
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
         s.connect(("127.0.0.1", 745))
